@@ -46,7 +46,7 @@ namespace StroyPlan.WPF {
         /// InitializeComponent
         /// </summary>
         [System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "9.0.20.0")]
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "9.0.10.0")]
         public void InitializeComponent() {
             if (_contentLoaded) {
                 return;
@@ -58,7 +58,7 @@ namespace StroyPlan.WPF {
             
             #line default
             #line hidden
-            System.Uri resourceLocater = new System.Uri("/StroyPlan.WPF;component/app.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/StroyPlan.WPF;V1.0.0.0;component/app.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\App.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
@@ -72,7 +72,7 @@ namespace StroyPlan.WPF {
         /// </summary>
         [System.STAThreadAttribute()]
         [System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "9.0.20.0")]
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "9.0.10.0")]
         public static void Main() {
             StroyPlan.WPF.App app = new StroyPlan.WPF.App();
             app.InitializeComponent();
