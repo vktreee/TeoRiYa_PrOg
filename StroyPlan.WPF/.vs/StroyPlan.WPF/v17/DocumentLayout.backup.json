@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\MyPC\\Documents\\GitHub\\TeoRiYa_PrOg\\StroyPlan.WPF\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{475CBEB7-982C-4A7A-A86E-2F33CEC63C16}|StroyPlan.Data\\StroyPlan.Data.csproj|c:\\users\\mypc\\documents\\github\\teoriya_prog\\stroyplan.wpf\\stroyplan.data\\services\\projectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{475CBEB7-982C-4A7A-A86E-2F33CEC63C16}|StroyPlan.Data\\StroyPlan.Data.csproj|solutionrelative:stroyplan.data\\services\\projectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475CBEB7-982C-4A7A-A86E-2F33CEC63C16}|StroyPlan.Data\\StroyPlan.Data.csproj|c:\\users\\mypc\\documents\\github\\teoriya_prog\\stroyplan.wpf\\stroyplan.data\\services\\jsonstorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{475CBEB7-982C-4A7A-A86E-2F33CEC63C16}|StroyPlan.Data\\StroyPlan.Data.csproj|solutionrelative:stroyplan.data\\services\\jsonstorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3EB281DC-531D-4797-B782-6C1819CC879B}|StroyPlan.Core\\StroyPlan.Core.csproj|c:\\users\\mypc\\documents\\github\\teoriya_prog\\stroyplan.wpf\\stroyplan.core\\models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3EB281DC-531D-4797-B782-6C1819CC879B}|StroyPlan.Core\\StroyPlan.Core.csproj|solutionrelative:stroyplan.core\\models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -55,19 +63,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ProjectRepository.cs",
+              "DocumentMoniker": "C:\\Users\\MyPC\\Documents\\GitHub\\TeoRiYa_PrOg\\StroyPlan.WPF\\StroyPlan.Data\\Services\\ProjectRepository.cs",
+              "RelativeDocumentMoniker": "StroyPlan.Data\\Services\\ProjectRepository.cs",
+              "ToolTip": "C:\\Users\\MyPC\\Documents\\GitHub\\TeoRiYa_PrOg\\StroyPlan.WPF\\StroyPlan.Data\\Services\\ProjectRepository.cs",
+              "RelativeToolTip": "StroyPlan.Data\\Services\\ProjectRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-28T13:03:49.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "JsonStorageService.cs",
+              "DocumentMoniker": "C:\\Users\\MyPC\\Documents\\GitHub\\TeoRiYa_PrOg\\StroyPlan.WPF\\StroyPlan.Data\\Services\\JsonStorageService.cs",
+              "RelativeDocumentMoniker": "StroyPlan.Data\\Services\\JsonStorageService.cs",
+              "ToolTip": "C:\\Users\\MyPC\\Documents\\GitHub\\TeoRiYa_PrOg\\StroyPlan.WPF\\StroyPlan.Data\\Services\\JsonStorageService.cs",
+              "RelativeToolTip": "StroyPlan.Data\\Services\\JsonStorageService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAIwCQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-28T13:03:02.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Task.cs",
               "DocumentMoniker": "C:\\Users\\MyPC\\Documents\\GitHub\\TeoRiYa_PrOg\\StroyPlan.WPF\\StroyPlan.Core\\Models\\Task.cs",
               "RelativeDocumentMoniker": "StroyPlan.Core\\Models\\Task.cs",
               "ToolTip": "C:\\Users\\MyPC\\Documents\\GitHub\\TeoRiYa_PrOg\\StroyPlan.WPF\\StroyPlan.Core\\Models\\Task.cs",
               "RelativeToolTip": "StroyPlan.Core\\Models\\Task.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAgAAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAIwBQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-28T11:19:34.287Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\MyPC\\Documents\\GitHub\\TeoRiYa_PrOg\\StroyPlan.WPF\\StroyPlan.Core\\Models\\User.cs",
               "RelativeDocumentMoniker": "StroyPlan.Core\\Models\\User.cs",
@@ -80,7 +114,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "ConstructionObject.cs",
               "DocumentMoniker": "C:\\Users\\MyPC\\Documents\\GitHub\\TeoRiYa_PrOg\\StroyPlan.WPF\\StroyPlan.Core\\Models\\ConstructionObject.cs",
               "RelativeDocumentMoniker": "StroyPlan.Core\\Models\\ConstructionObject.cs",
@@ -93,7 +127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Project.cs",
               "DocumentMoniker": "C:\\Users\\MyPC\\Documents\\GitHub\\TeoRiYa_PrOg\\StroyPlan.WPF\\StroyPlan.Core\\Models\\Project.cs",
               "RelativeDocumentMoniker": "StroyPlan.Core\\Models\\Project.cs",
@@ -106,7 +140,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Enums.cs",
               "DocumentMoniker": "C:\\Users\\MyPC\\Documents\\GitHub\\TeoRiYa_PrOg\\StroyPlan.WPF\\StroyPlan.Core\\Models\\Enums.cs",
               "RelativeDocumentMoniker": "StroyPlan.Core\\Models\\Enums.cs",
@@ -119,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\MyPC\\Documents\\GitHub\\TeoRiYa_PrOg\\StroyPlan.WPF\\StroyPlan.WPF\\App.xaml.cs",
               "RelativeDocumentMoniker": "StroyPlan.WPF\\App.xaml.cs",
@@ -127,11 +161,12 @@
               "RelativeToolTip": "StroyPlan.WPF\\App.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-07T12:52:10.174Z"
+              "WhenOpened": "2026-10-07T12:52:10.174Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\MyPC\\Documents\\GitHub\\TeoRiYa_PrOg\\StroyPlan.WPF\\StroyPlan.WPF\\views\\MainWindow.xaml",
               "RelativeDocumentMoniker": "StroyPlan.WPF\\views\\MainWindow.xaml",
@@ -143,7 +178,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\MyPC\\Documents\\GitHub\\TeoRiYa_PrOg\\StroyPlan.WPF\\StroyPlan.WPF\\App.xaml",
               "RelativeDocumentMoniker": "StroyPlan.WPF\\App.xaml",
@@ -155,7 +190,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Colors.xaml",
               "DocumentMoniker": "C:\\Users\\MyPC\\Documents\\GitHub\\TeoRiYa_PrOg\\StroyPlan.WPF\\StroyPlan.WPF\\Styles\\Colors.xaml",
               "RelativeDocumentMoniker": "StroyPlan.WPF\\Styles\\Colors.xaml",
@@ -167,7 +202,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\MyPC\\Documents\\GitHub\\TeoRiYa_PrOg\\StroyPlan.WPF\\StroyPlan.WPF\\views\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "StroyPlan.WPF\\views\\MainWindow.xaml.cs",
@@ -175,7 +210,8 @@
               "RelativeToolTip": "StroyPlan.WPF\\views\\MainWindow.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-07T12:48:45.737Z"
+              "WhenOpened": "2026-10-07T12:48:45.737Z",
+              "EditorCaption": ""
             }
           ]
         }
