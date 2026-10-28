@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StroyPlan.WPF")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+06d47f1217da19136ac6f81929fcde55460806ac")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f740424864f08d6e9fd6373ec5679b5da796a4e8")]
 [assembly: System.Reflection.AssemblyProductAttribute("StroyPlan.WPF")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StroyPlan.WPF")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

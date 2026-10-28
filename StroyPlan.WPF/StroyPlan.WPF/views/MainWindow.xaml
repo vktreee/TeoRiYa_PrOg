@@ -1,10 +1,15 @@
 ﻿<Window x:Class="StroyPlan.WPF.Views.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="clr-namespace:StroyPlan.WPF.ViewModels"
         Title="СтройПлан" Height="800" Width="1280"
         WindowStartupLocation="CenterScreen"
         WindowStyle="None" ResizeMode="CanResize"
         Background="{StaticResource BgColor}">
+
+    <Window.DataContext>
+        <vm:MainViewModel />
+    </Window.DataContext>
 
     <WindowChrome.WindowChrome>
         <WindowChrome CaptionHeight="40" ResizeBorderThickness="6"/>
@@ -65,6 +70,7 @@
                         FontSize="13" Cursor="Hand"/>
 
                 <StackPanel Grid.Column="1" Orientation="Horizontal" Margin="20,0,0,0">
+                    <!-- Кнопка Новый (можно тоже добавить команду, если нужно) -->
                     <Button Padding="10,6" Margin="0,0,8,0" Background="Transparent"
                             BorderThickness="0" FontSize="12" Cursor="Hand">
                         <StackPanel Orientation="Horizontal">
@@ -72,15 +78,21 @@
                             <TextBlock Text="Новый"/>
                         </StackPanel>
                     </Button>
+
+                    <!-- Кнопка Открыть -->
                     <Button Padding="10,6" Margin="0,0,8,0" Background="Transparent"
-                            BorderThickness="0" FontSize="12" Cursor="Hand">
+                            BorderThickness="0" FontSize="12" Cursor="Hand"
+                            Command="{Binding OpenProjectCommand}">
                         <StackPanel Orientation="Horizontal">
                             <TextBlock Text="📂" Margin="0,0,6,0"/>
                             <TextBlock Text="Открыть"/>
                         </StackPanel>
                     </Button>
+
+                    <!-- Кнопка Сохранить -->
                     <Button Padding="10,6" Background="Transparent"
-                            BorderThickness="0" FontSize="12" Cursor="Hand">
+                            BorderThickness="0" FontSize="12" Cursor="Hand"
+                            Command="{Binding SaveProjectCommand}">
                         <StackPanel Orientation="Horizontal">
                             <TextBlock Text="💾" Margin="0,0,6,0"/>
                             <TextBlock Text="Сохранить"/>
@@ -112,21 +124,21 @@
                 <!-- Панель задачи -->
             </Grid.ColumnDefinitions>
 
-            <!-- ЛЕВОЕ МЕНЮ -->
+            <!-- ЛЕВОЕ МЕНЮ: Объекты -->
             <Border Grid.Column="0" Background="{StaticResource BgColor}"
                     BorderBrush="{StaticResource BorderColor}" BorderThickness="0,0,1,0">
                 <StackPanel Margin="16">
                     <TextBlock Text="Объекты" FontSize="14" FontWeight="SemiBold"
                                Margin="0,0,0,12"/>
 
+                    <!-- Кнопка Новый объект -->
                     <Button Content="+ Новый объект"
+                            Command="{Binding CreateObjectCommand}"
                             Background="{StaticResource AccentColor}"
                             Foreground="White" BorderThickness="0"
                             Padding="12,10" FontSize="13"
                             HorizontalContentAlignment="Left"
                             Cursor="Hand"/>
-
-                    <!-- Список объектов будет добавлен позже -->
                 </StackPanel>
             </Border>
 
@@ -170,12 +182,12 @@
                             BorderThickness="1" FontSize="12" Cursor="Hand"/>
                 </Grid>
 
-                <!-- Колонки Kanban (пустые) -->
+                <!-- Колонки Kanban -->
                 <ScrollViewer Grid.Row="1" HorizontalScrollBarVisibility="Auto"
                               VerticalScrollBarVisibility="Disabled" Padding="16,0">
                     <StackPanel Orientation="Horizontal">
 
-                        <!-- Новая -->
+                        <!-- Колонка: Новая -->
                         <Border Width="200" Background="{StaticResource ColumnColor}"
                                 CornerRadius="8" Margin="0,0,12,0" Padding="10">
                             <Grid>
@@ -189,6 +201,7 @@
                                                Foreground="{StaticResource TextMuted}"/>
                                 </Grid>
                                 <Button Grid.Row="1" Content="+ Добавить задачу"
+                                        Command="{Binding CreateTaskCommand}"
                                         Background="Transparent" BorderThickness="0"
                                         Foreground="{StaticResource TextMuted}"
                                         HorizontalContentAlignment="Left"
@@ -197,7 +210,7 @@
                             </Grid>
                         </Border>
 
-                        <!-- В работе -->
+                        <!-- Колонка: В работе -->
                         <Border Width="200" Background="{StaticResource ColumnColor}"
                                 CornerRadius="8" Margin="0,0,12,0" Padding="10">
                             <Grid>
@@ -211,6 +224,7 @@
                                                Foreground="{StaticResource TextMuted}"/>
                                 </Grid>
                                 <Button Grid.Row="1" Content="+ Добавить задачу"
+                                        Command="{Binding CreateTaskCommand}"
                                         Background="Transparent" BorderThickness="0"
                                         Foreground="{StaticResource TextMuted}"
                                         HorizontalContentAlignment="Left"
@@ -219,7 +233,7 @@
                             </Grid>
                         </Border>
 
-                        <!-- На проверке -->
+                        <!-- Колонка: На проверке -->
                         <Border Width="200" Background="{StaticResource ColumnColor}"
                                 CornerRadius="8" Margin="0,0,12,0" Padding="10">
                             <Grid>
@@ -233,6 +247,7 @@
                                                Foreground="{StaticResource TextMuted}"/>
                                 </Grid>
                                 <Button Grid.Row="1" Content="+ Добавить задачу"
+                                        Command="{Binding CreateTaskCommand}"
                                         Background="Transparent" BorderThickness="0"
                                         Foreground="{StaticResource TextMuted}"
                                         HorizontalContentAlignment="Left"
@@ -241,7 +256,7 @@
                             </Grid>
                         </Border>
 
-                        <!-- Выполнена -->
+                        <!-- Колонка: Выполнена -->
                         <Border Width="200" Background="{StaticResource ColumnColor}"
                                 CornerRadius="8" Margin="0,0,12,0" Padding="10">
                             <Grid>
@@ -255,6 +270,7 @@
                                                Foreground="{StaticResource TextMuted}"/>
                                 </Grid>
                                 <Button Grid.Row="1" Content="+ Добавить задачу"
+                                        Command="{Binding CreateTaskCommand}"
                                         Background="Transparent" BorderThickness="0"
                                         Foreground="{StaticResource TextMuted}"
                                         HorizontalContentAlignment="Left"
@@ -263,7 +279,7 @@
                             </Grid>
                         </Border>
 
-                        <!-- Отложена -->
+                        <!-- Колонка: Отложена -->
                         <Border Width="200" Background="{StaticResource ColumnColor}"
                                 CornerRadius="8" Padding="10">
                             <Grid>
@@ -277,6 +293,7 @@
                                                Foreground="{StaticResource TextMuted}"/>
                                 </Grid>
                                 <Button Grid.Row="1" Content="+ Добавить задачу"
+                                        Command="{Binding CreateTaskCommand}"
                                         Background="Transparent" BorderThickness="0"
                                         Foreground="{StaticResource TextMuted}"
                                         HorizontalContentAlignment="Left"
@@ -289,10 +306,10 @@
                 </ScrollViewer>
             </Grid>
 
-            <!-- ПРАВО: Панель задачи (пустая) -->
+            <!-- ПРАВО: Панель задачи -->
             <Border Grid.Column="2" Background="{StaticResource BgColor}"
                     BorderBrush="{StaticResource BorderColor}" BorderThickness="1,0,0,0">
-                <StackPanel Margin="107,20,20,20">
+                <StackPanel Margin="20">
                     <TextBlock Text="Задача не выбрана"
                                FontSize="14"
                                Foreground="{StaticResource TextMuted}"

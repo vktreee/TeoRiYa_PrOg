@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "kvvgUVqthmA=",
+  "dgSpecHash": "F+V10cRXHPA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\svetl\\OneDrive\\Documents\\TeoRiYa_PrOg\\StroyPlan.WPF\\StroyPlan.WPF\\StroyPlan.WPF.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\user\\Documents\\GitHub\\TeoRiYa_PrOg\\StroyPlan.WPF\\StroyPlan.WPF\\StroyPlan.WPF.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\communitytoolkit.mvvm\\8.4.2\\communitytoolkit.mvvm.8.4.2.nupkg.sha512"
+  ],
   "logs": []
 }
