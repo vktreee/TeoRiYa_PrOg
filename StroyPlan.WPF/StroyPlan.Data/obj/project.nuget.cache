@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "nJLSr/9D6qE=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\MyPC\\Documents\\GitHub\\TeoRiYa_PrOg\\StroyPlan.WPF\\StroyPlan.Data\\StroyPlan.Data.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MyPC\\.nuget\\packages\\system.io.pipelines\\10.0.14\\system.io.pipelines.10.0.14.nupkg.sha512",
+    "C:\\Users\\MyPC\\.nuget\\packages\\system.text.encodings.web\\10.0.14\\system.text.encodings.web.10.0.14.nupkg.sha512",
+    "C:\\Users\\MyPC\\.nuget\\packages\\system.text.json\\10.0.14\\system.text.json.10.0.14.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -7,14 +7,30 @@
   "targets": {
     ".NETCoreApp,Version=v8.0": {
       "StroyPlan.WPF/1.0.0": {
+        "dependencies": {
+          "StroyPlan.Core": "1.0.0"
+        },
         "runtime": {
           "StroyPlan.WPF.dll": {}
+        }
+      },
+      "StroyPlan.Core/1.0.0": {
+        "runtime": {
+          "StroyPlan.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
   },
   "libraries": {
     "StroyPlan.WPF/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "StroyPlan.Core/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net8.0-windows7.0": {}
+    "net8.0-windows7.0": {
+      "StroyPlan.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/StroyPlan.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StroyPlan.Core.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "StroyPlan.Core/1.0.0": {
+      "type": "project",
+      "path": "../StroyPlan.Core/StroyPlan.Core.csproj",
+      "msbuildProject": "../StroyPlan.Core/StroyPlan.Core.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0-windows7.0": []
+    "net8.0-windows7.0": [
+      "StroyPlan.Core >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\MyPC\\.nuget\\packages\\": {},
@@ -39,7 +58,11 @@
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\MyPC\\Documents\\GitHub\\TeoRiYa_PrOg\\StroyPlan.WPF\\StroyPlan.Core\\StroyPlan.Core.csproj": {
+              "projectPath": "C:\\Users\\MyPC\\Documents\\GitHub\\TeoRiYa_PrOg\\StroyPlan.WPF\\StroyPlan.Core\\StroyPlan.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

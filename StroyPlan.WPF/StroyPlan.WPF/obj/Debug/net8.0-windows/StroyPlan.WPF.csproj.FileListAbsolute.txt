@@ -20,3 +20,7 @@ C:\Users\MyPC\Documents\GitHub\TeoRiYa_PrOg\StroyPlan.WPF\StroyPlan.WPF\obj\Debu
 C:\Users\MyPC\Documents\GitHub\TeoRiYa_PrOg\StroyPlan.WPF\StroyPlan.WPF\obj\Debug\net8.0-windows\Styles\Colors.baml
 C:\Users\MyPC\Documents\GitHub\TeoRiYa_PrOg\StroyPlan.WPF\StroyPlan.WPF\obj\Debug\net8.0-windows\views\MainWindow.baml
 C:\Users\MyPC\Documents\GitHub\TeoRiYa_PrOg\StroyPlan.WPF\StroyPlan.WPF\obj\Debug\net8.0-windows\views\MainWindow.g.cs
+C:\Users\MyPC\Documents\GitHub\TeoRiYa_PrOg\StroyPlan.WPF\StroyPlan.WPF\bin\Debug\net8.0-windows\StroyPlan.Core.dll
+C:\Users\MyPC\Documents\GitHub\TeoRiYa_PrOg\StroyPlan.WPF\StroyPlan.WPF\bin\Debug\net8.0-windows\StroyPlan.Core.pdb
+C:\Users\MyPC\Documents\GitHub\TeoRiYa_PrOg\StroyPlan.WPF\StroyPlan.WPF\obj\Debug\net8.0-windows\StroyPlan.WPF.csproj.AssemblyReference.cache
+C:\Users\MyPC\Documents\GitHub\TeoRiYa_PrOg\StroyPlan.WPF\StroyPlan.WPF\obj\Debug\net8.0-windows\StroyPla.06D7C3B5.Up2Date
